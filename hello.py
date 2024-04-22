@@ -1,5 +1,14 @@
-x_list = [100, 200, 300]
+class test:
+    def __init__(self):
+        print('おおお')
+    def bmi(self):
+        print('あいう')
+bc = test()
 
-for x in x_list:
-    x_yen = str(x) + '円'
-    print(x_yen)
+
+
+
+
+
+
+
