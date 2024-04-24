@@ -1,4 +1,3 @@
-import os #モジュール使ってみた
-current_dir = os.getcwd()
-result = os.listdir(current_dir)
-print(result)
+from tqdm import tqdm
+for x in tqdm([10**9]):
+    pass #便利な関数で実行にかかる時間かかった時間を取得
