@@ -1,6 +1,8 @@
-for i in range(10):
-    if i == 7:
-        continue
-    print(i)
-    #continueのつかいかたについて、上記のコードの場合だと
-    #1~10の数の実行されるが7だけ表示されない例:->123456(7表示されない)8910
+def test_try(base=100, height=20):
+   return base * height * 0.5
+test_try(base=20, height=30)
+#関数について
+#test_try(base=100, height=20):この部分に書いてもいいし
+#(base=20, height=30)ここにも書いてもいいいい、その場合後からかいたほうが優先される
+#上にも下にも処理内容をかかなければエラーが発生する
+    
