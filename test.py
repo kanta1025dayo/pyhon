@@ -1,6 +1,6 @@
-tozai = ["三条", "四条", "五条"]
-nanboku = ["堀川", "鳥丸", "川原町"]
-for i in tozai:
-    for j in nanboku:
-        cross = i+j
-print(cross)
+for i in range(10):
+    if i == 7:
+        break
+    print(i)
+    #breakの使い方は途中で終わらせることができる上記のコードの場合だと
+    #1~6まで表示されて7でストップする
